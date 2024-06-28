@@ -1,1 +1,5 @@
-site_name: My Docs
+site_name: Ongoing Dwarf Fortress Strategy Guide
+site_url: https://redhalo.github.io/df-strategy
+theme:
+  name: material
+
