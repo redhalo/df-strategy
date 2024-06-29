@@ -1,5 +1,63 @@
 site_name: Ongoing Dwarf Fortress Strategy Guide
 site_url: https://redhalo.github.io/df-strategy
+repo_url: https://github.com/redhalo/df-strategy
+edit_uri: edit/master/docs/
+
+plugins:
+  - search
+  - git-revision-date-localized:
+    enable_creation_date: true
+  - git-authors
+  - optimize
+
+markdown_extensions:
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
 theme:
   name: material
+  palette:
+  
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+    primary: brown
+    accent: deep orange
+
+  font:
+    text: Noto Sans
+    code: Noto Sans Mono
+
+  icon:
+    logo: material/pickaxe
+    repo: fontawesome/brands/github
+    edit: material/pencil
+
+  features:
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.tracking
+    - navigation.path
+    - navigation.indexes
+    - toc.follow
+    - toc.integration
+    - navigation.top
+    - search.support
+    - header.autohide
+    - navigation.footer
+    - content.action.edit
 
