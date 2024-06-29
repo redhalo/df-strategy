@@ -9,7 +9,7 @@ repo_url: https://github.com/redhalo/df-strategy
 
 nav:
   - 'index.md'
-  - 'starting-new-game.md'
+  - 'getting-started.md'
 
 theme:
   name: material
@@ -68,6 +68,8 @@ plugins:
 
 markdown_extensions:
   - admonition
+  - attr_list
+  - md_in_html
   - footnotes
   - tables
   - pymdownx.details
