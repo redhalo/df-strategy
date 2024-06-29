@@ -50,6 +50,7 @@ theme:
     - navigation.tracking
     - navigation.path
     - navigation.indexes
+      navigation.sections
     - toc.follow
     - toc.integrate
     - navigation.top
