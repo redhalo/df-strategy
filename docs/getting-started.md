@@ -13,6 +13,7 @@ We are going to use the preset world generation settings with the exception of c
 | `Number of beasts`        | Medium            |
 | `Natural savagery`        | Medium            |
 | `Mineral occurance`       | Everywhere        |
+{ .annotate }
 
 1.  This will allow for larger, established civilizations and a more lived in world.
 
@@ -20,7 +21,7 @@ Once completed, click `Keep world and return to main menu` to save the world fir
 
 ## Find Embark Location
 
-Once generation is complete, we are going to click `Find embark location` and narrow down a good embark site. While some features may be desireable, too specific of a search may not provide results.
+`Start new game in existing world` and select the newly created world. Click `Find embark location` and narrow down a good embark site. While some features may be desireable, too specific of a search may not provide results.
 
 | Parameter          | Value        |
 | :----------------- | :----------: |
@@ -50,6 +51,7 @@ Once generation is complete, we are going to click `Find embark location` and na
 | `Lead`             | N/A          |
 | `Aluminum`         | N/A          |
 | `Bismuth`          | N/A          |
+{ .annotate }
 
 1.  The 2x2 embark size provides enough resources for our fortress while reducing lag and making the map easier to monitor.
 2.  Good spirit embarks provide feather trees, sun berries and unicorns, which provide excelent resources.
