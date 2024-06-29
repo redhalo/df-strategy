@@ -1,9 +1,15 @@
-site_name: Ongoing Dwarf Fortress Strategy Guide
+site_name: An Ongoing Dwarf Fortress Strategy Guide
 site_url: https://redhalo.github.io/df-strategy
+site_description: An ongoing Dwarf Fortress strategy guide.
 site_author: Robert McCoy
+copyright: This work is marked with [CC0 1.0 :fontawesome-brands-creative-commons::fontawesome-brands-creative-commons-zero:](https://creativecommons.org/publicdomain/zero/1.0/?ref=chooser-v1)
 
 repo_name: redhalo/df-strategy
 repo_url: https://github.com/redhalo/df-strategy
+
+nav:
+  - 'index.md'
+  - 'starting-new-game.md'
 
 theme:
   name: material
@@ -46,6 +52,7 @@ theme:
     - search.support
     - header.autohide
     - navigation.footer
+    - content.action.view
     - content.action.edit
 
 plugins:
@@ -55,6 +62,10 @@ plugins:
   - git-authors
 
 markdown_extensions:
+  - admonition
+  - footnotes
+  - tables
+  - pymdownx.details
   - pymdownx.superfences:
       custom_fences:
         - name: mermaid
