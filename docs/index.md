@@ -1,3 +1,3 @@
-# This is a test
+# test
 
-test 1
+tst 1
