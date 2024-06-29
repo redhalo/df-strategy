@@ -2,7 +2,7 @@ site_name: An Ongoing Dwarf Fortress Strategy Guide
 site_url: https://redhalo.github.io/df-strategy
 site_description: An ongoing Dwarf Fortress strategy guide.
 site_author: Robert McCoy
-copyright: This work is marked with [CC0 1.0 :fontawesome-brands-creative-commons::fontawesome-brands-creative-commons-zero:](https://creativecommons.org/publicdomain/zero/1.0/?ref=chooser-v1)
+copyright: This work is marked with [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/?ref=chooser-v1) [:fontawesome-brands-creative-commons:](https://creativecommons.org/publicdomain/zero/1.0/?ref=chooser-v1) [:fontawesome-brands-creative-commons-zero:](https://creativecommons.org/publicdomain/zero/1.0/?ref=chooser-v1)
 
 repo_name: redhalo/df-strategy
 repo_url: https://github.com/redhalo/df-strategy
